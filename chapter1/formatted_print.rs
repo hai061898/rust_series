@@ -4,6 +4,10 @@
 // eprint!: same as format! but the text is printed to the standard error (io::stderr).
 // eprintln!: same as eprint!but a newline is appended.
 
+// format!("{}", foo) -> "3735928559"
+// format!("0x{:X}", foo) -> "0xDEADBEEF"
+// format!("0o{:o}", foo) -> "0o33653337357"
+
 fn main() {
 
     println!("{} days", 31);
