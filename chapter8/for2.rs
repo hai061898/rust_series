@@ -1,0 +1,1 @@
+mut stands for mutable. You are telling the Rust compiler that you will be changing this variable. What's nice is that Rust holds you to this contract. If you declare a variable using mut and never change it you'll see this warning
